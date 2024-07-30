@@ -1,6 +1,16 @@
-#include<iostream>
 using namespace std;
 
-int main(){
-    
+class person {
+    char name[20];
+    int id;
+
+public:
+    void getdetails() {}
+};
+
+int main()
+{
+
+    person p1; // p1 is a object
+    return 0;
 }
